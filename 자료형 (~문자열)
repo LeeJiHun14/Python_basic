@@ -1,0 +1,132 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled2.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyORNePdmqVf2O/1Js2pLTB5",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/LeeJiHun14/Python_basic/blob/main/%EC%9E%90%EB%A3%8C%ED%98%95%20(~%EB%AC%B8%EC%9E%90%EC%97%B4)\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "iOARsZWEXwnL"
+      },
+      "outputs": [],
+      "source": [
+        "1. 자료형\n",
+        "\n",
+        "  1) 숫자형\n",
+        "      숫자로 이루어진 자료형 \n",
+        "        정수형(Integer)\n",
+        "          ex) 1, 10, 0 , -5 등등..\n",
+        "\n",
+        "        사칙연산\n",
+        "          >>> a = 10\n",
+        "          >>> b = 2\n",
+        "          >>> a + b //덧셈\n",
+        "          12\n",
+        "          >>> a - b //뺄셈\n",
+        "          8\n",
+        "          >>> a * b //곱셈\n",
+        "          20\n",
+        "          >>> a / b //나눗셈\n",
+        "          5\n",
+        "          >>> a % b //나머지만 반환\n",
+        "          0 \n",
+        "          >>> a // b //몫만 반환\n",
+        "          5\n",
+        "\n",
+        "  2) 문자열\n",
+        "        -문자, 단어 등으로 구성된 문자들의 집합\n",
+        "        -문자를 큰 따옴표로 감싸서 사용\n",
+        "        ex) \"hello\", \"world\",\"2\" 등등..\n",
+        "\n",
+        "        -문자열 연산\n",
+        "          더하기\n",
+        "          >>> head = \"Hello \"\n",
+        "          >>> tail = \"world !\"\n",
+        "          >>> head + tail\n",
+        "          'Hello world !'\n",
+        "\n",
+        "          곱하기\n",
+        "          >>> a = \"Hello\"\n",
+        "          >>> a * 2\n",
+        "          'HelloHello'\n",
+        "\n",
+        "          -문자열 인덱싱과 슬라이싱\n",
+        "\n",
+        "          -인덱싱\n",
+        "          >>> a = \"Hello world !\"\n",
+        "          >>> a[0] (0부터 숫자를 센다)\n",
+        "          'H'\n",
+        "          >>> a[-3] (뒤에서부터 센다)\n",
+        "          'd'\n",
+        "\n",
+        "          -슬라이싱\n",
+        "          >>> a = \"Hello world !\"\n",
+        "          >>> a[0:2] (0번째부터 2번째 전까지)\n",
+        "          'He'\n",
+        "          >>> b = a[0:2]\n",
+        "          >>> b\n",
+        "          'He'\n",
+        "\n",
+        "          >>> a = \"Pithon\"\n",
+        "          >>> a[:1]\n",
+        "          'P'\n",
+        "          >>> a[2:]\n",
+        "          'thon'\n",
+        "          >>> a[:1] + 'y' + a[2:]\n",
+        "          'Python'\n",
+        "\n",
+        "         -문자열 포매팅\n",
+        "          숫자 대입 (%d)\n",
+        "          >>> \"I eat %d apples.\" % 3\n",
+        "          'I eat 3 apples.'\n",
+        "\n",
+        "          문자열 대입 (%s)\n",
+        "          >>> \"I eat %s apples.\" % five\n",
+        "          'I eat five apples.'\n",
+        "\n",
+        "          2개 이상 값 넣기\n",
+        "          >>> number = 10\n",
+        "          >>> day = \"three\"\n",
+        "          >>> \"I ate %d apples. so I was sick for %s days.\" % (number, day)\n",
+        "          'I ate 10 apples. so I was sick for three days.'\n",
+        "\n",
+        "  3) 리스트\n",
+        "\n",
+        "  4) 튜플\n",
+        "\n",
+        "  5) 딕셔너리\n",
+        "\n",
+        "  6) 집합\n",
+        "\n",
+        "  7) 불\n",
+        "\n",
+        "  8) 변수"
+      ]
+    }
+  ]
+}
